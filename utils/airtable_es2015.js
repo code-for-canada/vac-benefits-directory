@@ -11,7 +11,7 @@ var fetchTableFromAirtable = async function fetchTableFromAirtable(table) {
   var jsonRecords = [];
   do {
     var url =
-      "https://api.airtable.com/v0/appoFDwVvNMRSaO6o/" +
+      "https://api.airtable.com/v0/appsQN95c4pkjXd8Y/" +
       table +
       "?view=Grid%20view";
     if (offset) {
